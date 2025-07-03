@@ -12,11 +12,11 @@ if(isset($_POST["email"])){
         $mail->isSMTP();                                            
         $mail->Host       = 'smtp.gmail.com';                     
         $mail->SMTPAuth   = true;                                   
-        $mail->Username   = 'bzaid3391@gmail.com';                     
+        $mail->Username   = 'your email';                     
         $mail->Password   = 'your passwordapp from your account email'; 
         $mail->SMTPSecure = 'TLS';           
         $mail->Port       = 587;
-        $mail->setFrom('bzaid3391@gmail.com', 'mymarket.ma');
+        $mail->setFrom('your email', 'mymarket.ma');
         $mail->addAddress($email);
         $mail->isHTML(true); 
         $mail->Subject = 'verefication code';
