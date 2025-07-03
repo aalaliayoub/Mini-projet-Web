@@ -13,7 +13,7 @@ if(isset($_POST["email"])){
         $mail->Host       = 'smtp.gmail.com';                     
         $mail->SMTPAuth   = true;                                   
         $mail->Username   = 'bzaid3391@gmail.com';                     
-        $mail->Password   = 'uvzd hvmi eytt llsi'; 
+        $mail->Password   = 'your passwordapp from your account email'; 
         $mail->SMTPSecure = 'TLS';           
         $mail->Port       = 587;
         $mail->setFrom('bzaid3391@gmail.com', 'mymarket.ma');
